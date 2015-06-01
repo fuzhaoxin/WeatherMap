@@ -55,6 +55,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Shimmer.framework'
   install_framework 'Spring.framework'
   install_framework 'SwiftyJSON.framework'
+  install_framework 'ZipArchive.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Alamofire.framework'
@@ -64,4 +65,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Shimmer.framework'
   install_framework 'Spring.framework'
   install_framework 'SwiftyJSON.framework'
+  install_framework 'ZipArchive.framework'
 fi
